@@ -1,29 +1,17 @@
-# CRUD API NESTJS CON PRISMA
 
-## Comando a utilizar
+# CRUD API con NestJS y Prisma
 
-```bash
-$ npm run start:dev
-```
-
-## Rutas 
+## Comandos a utilizar
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
+# Iniciar la aplicación en modo desarrollo
 $ npm run start:dev
+Rutas
+GET /task: Obtener todas las tareas.
+GET /task/:id: Obtener una tarea por su ID.
+POST /task: Crear una nueva tarea.
+PUT /task/:id: Actualizar una tarea existente.
+DELETE /task/:id: Eliminar una tarea.
 
-# production mode
-$ npm run start:prod
-```
 
-## Run tests
-
--- GET http://localhost:3000/task
--- GET http://localhost:3000/task/1
--- POST http://localhost:3000/task
--- PUT http://localhost:3000/task/1
--- DELETE http://localhost:3000/task
---
+Este formato utiliza la sintaxis Markdown adecuada para las rutas. Si necesitas más cambios o detalles, házmelo saber.
